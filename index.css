@@ -2,13 +2,18 @@
     /* display: flex; */
 }
 .navigation{
-    z-index: -1;
+    
     height: 100vh;
     position: fixed;
     padding-top: 50px;
     background-color:whitesmoke;
     width: 200px;
     padding-left: 20px;
+    background-image: url(./images/grey-technology-background_1035-9343.webp);
+
+}
+#home{
+    background-color: #000000;
 }
 .myimage{
     width: 100px;
@@ -20,23 +25,27 @@
     font-size: 20px;
 }
 .margin_left{
-    margin-left: 220px;
+    margin-left: 200px;
 }
-.footer{
-    z-index:1;
-}
+
 #achievements{
     position: absolute;
 
-    z-index: 2;
+
+
     /* margin-top: -10%; */
     /* background-repeat: no-repeat; */
 }
-.carousel-slide {
-    position: relative;
-}
 .achievements{
-    position: relative;
+    position:relative;
+    border: solid;
+    border-color: white;
+    border-width: thick;
+}
+
+
+.achievementcontents{
+    text-emphasis: center;
 }
 .foo{
     bottom: 10%;
@@ -50,35 +59,89 @@
     top:0px;
     left: 0px;
 }
-.flex_box{
-    display: flex;
-    width:1000px;
-    justify-content: space-evenly;
-}
+
+
 .about_content{
     width: 400px;
-    text-align: left;
+    text-align: center;
+
 }
 #about{
-    background-color: black;
-}
-
-
-#home{
-    background-color: black;
+    background-color:black;
     color: white;
-    text-align: center;
+    border: solid;
+    border-color: white;
+    border-width: thick;
 }
+
+
+
 #contact{
-    margin-left: 280px;
+    margin-left: 200px;
+    background-color:#000000;
+    color: #ffffff;
+    border: solid;
+    border-color: white;
+    border-width: thick;
+}
+.contactTitle{
+    text-align:center;
+}
+.contactcontent{
+    align-items: center;
+    width: 100px;
+    flex-direction: row;
 }
 .footer{
-    margin-left:280px;
+   padding-left: 40px;
+   display: flex;
 }
+.github{
+    float: left;
+}
+.twitter{
+    float: left;
+}
+.instagram{
+    float: left;
+}
+
 #footer{
-    margin-left:280px;
+    margin-left: 200px;
+
 }
-.footerTwo{
-    padding left: 200px;
-    
+
+
+
+#projects{
+    background-color:black;
+    border: solid;
+    border-color: white;
+    border-width: thick;
 }
+.projectsheading{
+    text-align: center;
+}
+.container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .container img {vertical-align: middle;}
+  
+  .container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  .achievementstitle{
+    text-align: center;
+  }
+  .Top{
+    margin-left: 500px;
+  }
