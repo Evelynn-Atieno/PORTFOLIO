@@ -1,8 +1,7 @@
 .portfolio{
-    display: flex;
+    /* display: flex; */
 }
 .navigation{
-    
     z-index: -1;
     height: 100vh;
     position: fixed;
@@ -27,8 +26,17 @@
     z-index:1;
 }
 #achievements{
+    position: absolute;
+
+    z-index: 2;
     /* margin-top: -10%; */
     /* background-repeat: no-repeat; */
+}
+.carousel-slide {
+    position: relative;
+}
+.achievements{
+    position: relative;
 }
 .foo{
     bottom: 10%;
@@ -49,12 +57,28 @@
 }
 .about_content{
     width: 400px;
+    text-align: left;
 }
-.about_image{
-    width: 370px;
+#about{
+    background-color: black;
 }
+
+
 #home{
     background-color: black;
     color: white;
     text-align: center;
+}
+#contact{
+    margin-left: 280px;
+}
+.footer{
+    margin-left:280px;
+}
+#footer{
+    margin-left:280px;
+}
+.footerTwo{
+    padding left: 200px;
+    
 }
