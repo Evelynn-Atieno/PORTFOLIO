@@ -1,5 +1,6 @@
 .portfolio{
     /* display: flex; */
+    
 }
 .navigation{
     
@@ -7,7 +8,7 @@
     position: fixed;
     padding-top: 50px;
     background-color:whitesmoke;
-    width: 200px;
+    width:16%;
     padding-left: 20px;
     background-image: url(./images/grey-technology-background_1035-9343.webp);
 
@@ -26,6 +27,7 @@
 }
 .margin_left{
     margin-left: 200px;
+    width: 84%;
 }
 
 .position_relative{
@@ -42,6 +44,13 @@
     border: solid;
     border-color: white;
     border-width: thick;
+    margin-left:11px;
+}
+.contact_content{
+    width:500px;
+    border: 1px white solid;
+    margin: auto;
+
 }
 
 
@@ -49,11 +58,12 @@
 #contact{
     background-color:#000000;
     color: #ffffff;
-    border: solid;
+    border:  solid;
     border-color: white;
     border-width: thick;
-    margin-left: 200px;
     text-align: center;
+    width: 100%;
+    padding-left: 200px;
     
     
 }
@@ -111,4 +121,29 @@
   }
   .Top{
     margin-left: 500px;
+  }
+  .achievements{
+    position: relative;
+    width: 100%;
+  }
+  #achievements{
+    width: 100%;
+
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 0px;
+    height:600px;
+   
+  }
+  .achievements_info{
+    width: 60%;
+    margin: auto;
+    height: 600px;
+    
+  }
+  .img{
+    height:600;
+    margin-left:20px;
   }
