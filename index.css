@@ -28,29 +28,6 @@
     margin-left: 200px;
 }
 
-#achievements{
-    position: absolute;
-
-
-
-    /* margin-top: -10%; */
-    /* background-repeat: no-repeat; */
-}
-.achievements{
-    position:relative;
-    border: solid;
-    border-color: white;
-    border-width: thick;
-}
-
-
-.achievementcontents{
-    text-emphasis: center;
-}
-.foo{
-    bottom: 10%;
-    transform: translate(200%, -250%);
-}
 .position_relative{
     position: relative;
 }
@@ -58,13 +35,6 @@
     position: absolute;
     top:0px;
     left: 0px;
-}
-
-
-.about_content{
-    width: 400px;
-    text-align: center;
-
 }
 #about{
     background-color:black;
@@ -77,39 +47,35 @@
 
 
 #contact{
-    margin-left:100px;
     background-color:#000000;
     color: #ffffff;
     border: solid;
     border-color: white;
     border-width: thick;
+    margin-left: 200px;
+    
+    
 }
-.contactTitle{
-    text-align:center;
-}
-.contactcontent{
-    align-items: center;
-    width: 100px;
-    flex-direction: row;
-}
+
 .footer{
    padding-left: 40px;
+   background-color: rgb(218, 200, 200);
+   padding-left: 20px;
    display: flex;
+ 
+   margin-left: 200px;
 }
-.github{
-    float: left;
-}
-.twitter{
-    float: left;
-}
-.instagram{
-    float: left;
-}
+   
+
+
 
 #footer{
     margin-left: 200px;
+    display: flex;
+    background-color: black;
 
 }
+
 
 
 
